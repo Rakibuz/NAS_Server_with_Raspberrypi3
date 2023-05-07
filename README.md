@@ -61,15 +61,15 @@ sudo nano /etc/samba/smb.conf
  
 Go inside the file and at the bottom the file type 
 
- [RaspberryPi NAS]
- 
- comment = Pi Server
- public = yes
- writeable = yes
- browsable = yes
- path = /External
- create mask = 0777
- directory mask = 0777
+
+[RaspberryPi NAS]
+comment = Pi Server
+public = yes
+writeable = yes
+browsable = yes
+path = /External
+create mask = 0777
+directory mask = 0777
      
 ### Restating the Samba :
 sudo /etc/init.d/samba restart
