@@ -39,22 +39,22 @@ This NAS Server can be accessed from all computers and mobile devices connected 
      Passsword: raspberry
 2. Execute the following commands serially 
 
- Update all the Repositories:
- 
- ---->   sudo apt-get update   (make sure internet is connected)
- 
- NTFS Package :
- 
- ---->   sudo apt-get install ntfs-3g
- 
- Samba Package Installation:
- ---->  sudo apt-get install samba samba-common-bin
- 
- Creating a directory in root:
- 
- ----> sudo mkdir /External
- 
- ---->   sudo mount /External
+Update all the Repositories:
+
+sudo apt-get update   (make sure internet is connected)
+
+### NTFS Package :
+
+sudo apt-get install ntfs-3g
+
+Samba Package Installation:
+sudo apt-get install samba samba-common-bin
+
+Creating a directory in root:
+
+sudo mkdir /External
+
+sudo mount /External
  
  
      
