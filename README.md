@@ -35,8 +35,10 @@ This NAS Server can be accessed from all computers and mobile devices connected 
 ##  Inside raspbian-stretch-lite 
 
 After booting up Login  as  
+     
      User:  pi  
      Passsword: raspberry
+     
 Execute the following commands serially 
 
 ### Update all the Repositories:
