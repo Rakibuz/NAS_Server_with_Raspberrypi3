@@ -84,7 +84,9 @@ Go inside the file and at the bottom the file type
 2. Go to Network Discovary and Enable Device Discovery.
 3. Go to  "Turn Windows features on or off" and check the following box
 ![SMB](https://user-images.githubusercontent.com/28311232/236664246-fe01249e-74be-45d1-bc55-7a79c4b73647.png)
+
 4. Then Restart Your Computer. Again bring the computer within the same WiFi Network. Hopefully, this will work.
+
 ![Network Discovery](https://user-images.githubusercontent.com/28311232/236664739-449a7571-4626-4765-bb86-65fd90ea502e.png)
 
 
