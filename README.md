@@ -91,8 +91,13 @@ Go inside the file and at the bottom the file type
 ## Access from  Android Mobile
 
 1. First Connect the Android Mobile with same WiFi network.
-2. Go to File Manager
-3. ![file_manager_1](https://user-images.githubusercontent.com/28311232/236665364-96072093-8bb4-481c-a309-7da740e37016.jpeg)
+2. Go to File Manager.
+3. Find Remote option.
+![file_manager_1](https://user-images.githubusercontent.com/28311232/236665364-96072093-8bb4-481c-a309-7da740e37016.jpeg)
+4. Add Remote Device, Select SMB LAN
+![fm2](https://user-images.githubusercontent.com/28311232/236665374-d00262ec-d125-43e4-84a2-65cdc884eec7.jpeg)
+5. Login through following credentials.
 
-4. ![fm2](https://user-images.githubusercontent.com/28311232/236665374-d00262ec-d125-43e4-84a2-65cdc884eec7.jpeg)
+               User:  pi  
+               Passsword: raspberry
 
