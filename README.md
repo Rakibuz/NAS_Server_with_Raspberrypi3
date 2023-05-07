@@ -87,3 +87,12 @@ Go inside the file and at the bottom the file type
 4. Then Restart Your Computer. Again bring the computer within the same WiFi Network. Hopefully, this will work.
 ![Network Discovery](https://user-images.githubusercontent.com/28311232/236664739-449a7571-4626-4765-bb86-65fd90ea502e.png)
 
+
+## Access from  Android Mobile
+
+1. First Connect the Android Mobile with same WiFi network.
+2. Go to File Manager
+3. ![file_manager_1](https://user-images.githubusercontent.com/28311232/236665364-96072093-8bb4-481c-a309-7da740e37016.jpeg)
+
+4. ![fm2](https://user-images.githubusercontent.com/28311232/236665374-d00262ec-d125-43e4-84a2-65cdc884eec7.jpeg)
+
