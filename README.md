@@ -47,10 +47,10 @@ sudo apt-get update   (make sure internet is connected)
 
 sudo apt-get install ntfs-3g
 
-###Samba Package Installation:
+### Samba Package Installation:
 sudo apt-get install samba samba-common-bin
 
-##Creating a directory in root and mounting it:
+### Creating a directory in root and mounting it:
 
 sudo mkdir /External
 
