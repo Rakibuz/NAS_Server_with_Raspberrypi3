@@ -70,10 +70,10 @@ Go inside the file and at the bottom the file type
           browsable = yes
           path = /External
           create mask = 0777
-directory mask = 0777
+          directory mask = 0777
      
 ### Restating the Samba :
-sudo /etc/init.d/samba restart
+    sudo /etc/init.d/samba restart
 
 
 ## Access from Windows Computer
