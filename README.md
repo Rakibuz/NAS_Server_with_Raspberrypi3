@@ -40,24 +40,25 @@ After booting up Login  as
 Execute the following commands serially 
 
 ### Update all the Repositories:
-sudo apt-get update   (make sure internet is connected)
+     sudo apt-get update   (make sure internet is connected)
 
 ### NTFS Package :
-sudo apt-get install ntfs-3g
+     sudo apt-get install ntfs-3g
 
 ### Samba Package Installation:
-sudo apt-get install samba samba-common-bin
+     sudo apt-get install samba samba-common-bin
 
 
 ### Creating a directory in root :
-sudo mkdir /External
+     sudo mkdir /External
 
 ### Check all the connected drives and mount the specific one:
-lsblk
-sudo mount /dev/sda1 /External    (Here /dev/sda1 is the External HDD part)
+     lsblk
+     sudo mount /dev/sda1 /External    
+(Here /dev/sda1 is the External HDD part)
 
 ### Configuring samba 
-sudo nano /etc/samba/smb.conf
+     sudo nano /etc/samba/smb.conf
  
 Go inside the file and at the bottom the file type 
 
