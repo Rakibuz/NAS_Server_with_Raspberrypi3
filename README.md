@@ -39,7 +39,7 @@ This NAS Server can be accessed from all computers and mobile devices connected 
      Passsword: raspberry
 2. Execute the following commands serially 
 
-###Update all the Repositories:
+### Update all the Repositories:
 
 sudo apt-get update   (make sure internet is connected)
 
