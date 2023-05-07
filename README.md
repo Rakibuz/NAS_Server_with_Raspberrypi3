@@ -34,27 +34,51 @@ This NAS Server can be accessed from all computers and mobile devices connected 
 
 ##  Inside raspbian-stretch-lite 
 
-1. After booting up Login  as  
+After booting up Login  as  
      User:  pi  
      Passsword: raspberry
-2. Execute the following commands serially 
+Execute the following commands serially 
 
 ### Update all the Repositories:
-
 sudo apt-get update   (make sure internet is connected)
 
 ### NTFS Package :
-
 sudo apt-get install ntfs-3g
 
 ### Samba Package Installation:
 sudo apt-get install samba samba-common-bin
 
-### Creating a directory in root and mounting it:
 
+### Creating a directory in root :
 sudo mkdir /External
 
-sudo mount /External
+### Check all the connected drives and mount the specific one:
+lsblk
+sudo mount /dev/sda1 /External    (Here /dev/sda1 is the External HDD part)
+
+### Configuring samba 
+sudo nano /etc/samba/smb.conf
  
- 
+Go inside the file and at the bottom the file type 
+
+[RaspberryPi NAS]
+comment = Pi Server
+public = yes
+writeable = yes
+browsable = yes
+path = /External
+create mask = 0777
+directory mask = 0777
      
+### Restating the Samba :
+sudo /etc/init.d/samba restart
+
+
+## Access from Windows Computer
+
+1. First Connect the desired computer with same WiFi network.
+2. Go to Network Discovary and Enable Device Discovery.
+3. Go to  "Turn Windows features on or off" and check the following box
+![SMB](https://user-images.githubusercontent.com/28311232/236664246-fe01249e-74be-45d1-bc55-7a79c4b73647.png)
+
+
